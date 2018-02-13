@@ -14,7 +14,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     @IBOutlet weak var sceneView: ARSCNView!
     let configuration = ARWorldTrackingConfiguration()
     
-// here was bla
+
     
     @IBOutlet weak var planeDetected: UILabel!
     
