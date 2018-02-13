@@ -16,6 +16,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     @IBOutlet weak var planeDetected: UILabel!
     
+    var bla = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.configuration.planeDetection = .horizontal
